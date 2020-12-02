@@ -1,0 +1,18 @@
+doggy1_level: &doggy1
+  Dog_hair: "long_hair"
+  name: "jinmao"
+  age: 6
+  gender: 'female'
+  colour: "oringe"
+  bark_ww_bark: "wang~wang~"
+
+doggy2_level: &doggy2
+  Dog_hair: "short_hair"
+  name: "a_chai"
+  age: 2
+  gender: 'male'
+  colour: "yellow"
+  bark_ww_bark: "wang~"
+
+default:
+  <<: *doggy1

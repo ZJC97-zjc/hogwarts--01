@@ -1,0 +1,29 @@
+catty1_level: &catty1
+  Cat_hair: "short_hair"
+  name: "damao"
+  age: 1
+  gender: 'male'
+  colour: "white"
+  bark_mm_bark: "miao~miao~"
+
+catty2_level: &catty2
+  Cat_hair: "long_hair"
+  name: "xiaomao"
+  age: 3
+  gender: 'male'
+  colour: "black and white"
+  bark_mm_bark: "ao~ao~"
+
+catty3_level: &catty3
+  Cat_hair: "short_hair"
+  name: "shabao"
+  age: 2
+  gender: 'female'
+  colour: "oringe"
+  bark_mm_bark: "aoooo~"
+
+
+
+
+default:
+  <<: *catty1

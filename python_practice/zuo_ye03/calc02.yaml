@@ -1,0 +1,27 @@
+add:
+  add_datas:
+    - [ 1,5,6 ]
+    - [ 0.2,1.5,1.7 ]
+    - [ -3,-6,-9 ]
+    - [ 250,630,880 ]
+
+  add_myid:
+    - 'int_add'
+    - 'float_add'
+    - 'negetive_add'
+    - 'huge_add'
+
+
+div:
+  div_datas:
+    - [ 4,2,2 ]
+    - [ 2.4,0.2,12 ]
+    - [ -10,-2,5 ]
+    - [ 888,2,444 ]
+    - [ 0,2,0 ]
+  div_myid:
+    - 'int_div'
+    - 'float_div'
+    - 'negetive_div'
+    - 'huge_div'
+    - 'zero_div'
